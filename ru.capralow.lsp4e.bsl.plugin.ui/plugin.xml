@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.lsp4e.languageServer">
+      <server
+            class="com.github._1c_syntax.bsl.languageserver.BSLLanguageServer"
+            id="com.github._1c_syntax.bsl.languageserver"
+            label="BSL Language Server">
+      </server>
+      <contentTypeMapping
+            contentType="com._1c.g5.v8.dt.bsl.contenttype"
+            id="com.github._1c_syntax.bsl.languageserver">
+      </contentTypeMapping>
+   </extension>
+
+</plugin>
