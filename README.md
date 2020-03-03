@@ -1,4 +1,4 @@
-# dt.lsp4e.bsl [![Build Status](https://travis-ci.org/DoublesunRUS/ru.capralow.dt.lsp4e.bsl.svg)](https://travis-ci.org/DoublesunRUS/ru.capralow.dt.lsp4e.bsl) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=DoublesunRUS_ru.capralow.dt.lsp4e.bsl&metric=alert_status)](https://sonarcloud.io/dashboard?id=DoublesunRUS_ru.capralow.dt.lsp4e.bsl) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=DoublesunRUS_ru.capralow.dt.lsp4e.bsl&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=DoublesunRUS_ru.capralow.dt.lsp4e.bsl) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=DoublesunRUS_ru.capralow.dt.lsp4e.bsl&metric=coverage)](https://sonarcloud.io/dashboard?id=DoublesunRUS_ru.capralow.dt.lsp4e.bsl)
+# dt.lsp4e.bsl [![Build Status](https://travis-ci.com/DoublesunRUS/ru.capralow.dt.lsp4e.bsl.svg)](https://travis-ci.com/DoublesunRUS/ru.capralow.dt.lsp4e.bsl) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=DoublesunRUS_ru.capralow.dt.lsp4e.bsl&metric=alert_status)](https://sonarcloud.io/dashboard?id=DoublesunRUS_ru.capralow.dt.lsp4e.bsl) [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=DoublesunRUS_ru.capralow.dt.lsp4e.bsl&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=DoublesunRUS_ru.capralow.dt.lsp4e.bsl) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=DoublesunRUS_ru.capralow.dt.lsp4e.bsl&metric=coverage)](https://sonarcloud.io/dashboard?id=DoublesunRUS_ru.capralow.dt.lsp4e.bsl)
 
 
 ## LSP4E для BSL LS для [1C:Enterprise Development Tools](http://v8.1c.ru/overview/IDE/) 2020.1
@@ -20,4 +20,5 @@
 
 ### Возможности
 Плагин подключает BSL Language Server к LSP4E и обеспечивает работу BSL LS через Language Server Protocol.<br>
-Возможности EDT при этом __не__ используются.<br>
+Ядро EDT при этом __не__ используется.<br>
+Для просмотра ошибок необходимо использовать панель Общие -> Неполадки.<br>

@@ -5,12 +5,16 @@
    <extension
          point="org.eclipse.lsp4e.languageServer">
       <server
-            class="com.github._1c_syntax.bsl.languageserver.BSLLanguageServer"
+            class="ru.capralow.dt.lsp4e.bsl.plugin.internal.ui.BslConnectionProvider"
             id="com.github._1c_syntax.bsl.languageserver"
             label="BSL Language Server">
       </server>
       <contentTypeMapping
             contentType="com._1c.g5.v8.dt.bsl.contenttype"
+            id="com.github._1c_syntax.bsl.languageserver">
+      </contentTypeMapping>
+      <contentTypeMapping
+            contentType="org.eclipse.core.runtime.text"
             id="com.github._1c_syntax.bsl.languageserver">
       </contentTypeMapping>
    </extension>
